@@ -6,7 +6,11 @@ public class program1 {
         int a=sc.nextInt();
         System.out.println("Enter second number");
         int b=sc.nextInt();
-        System.out.println("Enter your choice");
+        System.out.println("Enter your choice " +
+                "1 for addition," +
+                "2 for subtraction," +
+                "3 for multiplication," +
+                "4 for division ");
         int n=sc.nextInt();
         switch(n){
             case 1:
